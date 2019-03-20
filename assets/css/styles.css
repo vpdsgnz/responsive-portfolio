@@ -161,11 +161,22 @@ footer {
 
 @media (max-width: 980px) {
     section {
-        width: 800px;
+        width: 768px;
     }
 
     .nav-content {
-        width: 100%;
+        width: 768px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 640px;
+    }
+
+    .nav-content {
+        width: 640px;
         padding-right: 30px;
     }
 }
